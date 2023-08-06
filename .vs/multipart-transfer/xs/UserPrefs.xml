@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{F7CFB3F9-8FEF-4CA1-ABB0-A3F9B06D7813}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/psnehi/Projects/Aws-helpers/AmazonService.cs" line="27" column="1" />
+      <Breakpoint file="/Users/psnehi/Projects/multipart-transfer/Program.cs" relfile="Program.cs" line="4" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="4" Column="1" />
+      <File FileName="../Aws-helpers/AmazonService.cs" Line="45" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="multipart-transfer" expanded="True">
+            <Node name="Aws-helpers" expanded="True" />
+            <Node name="multipart-transfer" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.multipart-transfer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

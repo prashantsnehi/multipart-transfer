@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/psnehi/Projects/multipart-transfer/multipart-transfer.csproj": {}
+  },
+  "projects": {
+    "/Users/psnehi/Projects/Aws-helpers/Aws-helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/psnehi/Projects/Aws-helpers/Aws-helpers.csproj",
+        "projectName": "Aws-helpers",
+        "projectPath": "/Users/psnehi/Projects/Aws-helpers/Aws-helpers.csproj",
+        "packagesPath": "/Users/psnehi/.nuget/packages/",
+        "outputPath": "/Users/psnehi/Projects/Aws-helpers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/psnehi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.200.10, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.201.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/psnehi/Projects/multipart-transfer/multipart-transfer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/psnehi/Projects/multipart-transfer/multipart-transfer.csproj",
+        "projectName": "multipart-transfer",
+        "projectPath": "/Users/psnehi/Projects/multipart-transfer/multipart-transfer.csproj",
+        "packagesPath": "/Users/psnehi/.nuget/packages/",
+        "outputPath": "/Users/psnehi/Projects/multipart-transfer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/psnehi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/psnehi/Projects/Aws-helpers/Aws-helpers.csproj": {
+                "projectPath": "/Users/psnehi/Projects/Aws-helpers/Aws-helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.200.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
